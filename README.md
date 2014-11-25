@@ -21,7 +21,7 @@ $ git pull origin master
 ----------------------
 ###### adds all the files
 ```
-$ git add .
+$ git add --all
 ```
 ###### appends a message
 ```
@@ -32,4 +32,14 @@ $ git commit -m "message"
 
 ```
 $ git push -u origin master
+```
+
+### Branching is easy too
+-------------------------
+```
+$ git branch BranchName
+$ git checkout BranchName
+$ git add --all
+$ git commit -m "message"
+$ git push origin BranchName
 ```
