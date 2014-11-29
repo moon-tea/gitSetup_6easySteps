@@ -36,10 +36,34 @@ $ git push -u origin master
 
 ### Branching is easy too
 -------------------------
+###### make a new branch and switch to it
+```
+$ git checkout -b BranchName
+```
+> This is short for
+
 ```
 $ git branch BranchName
 $ git checkout BranchName
+```
+
+###### or switch to an existing one
+```
+$ git checkout BranchName
+```
+###### and commit like we normally do
+```
 $ git add --all
 $ git commit -m "message"
 $ git push origin BranchName
+```
+
+###### when you are done with a branch, you can merge it
+Switch to branch 'master'
+```
+$ git checkout master
+```
+###### then merge your branch
+```
+$ git merge Branchname
 ```
